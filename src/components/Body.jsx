@@ -7,7 +7,7 @@ function Body() {
         <div id="navbar-id">
           <nav class="navbar navbar-expand-lg navbar">
             <a class="navbar-brand" href="#">
-              moreno biage
+              Moreno Biage
             </a>
             <button class="navbar-toggler" type="button" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -17,29 +17,24 @@ function Body() {
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                   <a class="nav-link" href="/">
-                    Home <span class="sr-only">(current)</span>
+                    <i class="fas fa-home fa-2x"></i>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#projects">
-                    Projects
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://github.com/Biagemc">
-                    Github
+                  <a class="nav-link" href="https://github.com/Biagemc" target="_blank">
+                    <i class="fab fa-github fa-2x"></i>
                   </a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="https://www.linkedin.com/in/morenobiage/">
-                    LinkedIn
+                  <a class="nav-link" href="https://www.linkedin.com/in/morenobiage/" target="_blank">
+                    <i class="fab fa-linkedin fa-2x"></i>
                   </a>
                 </li>
 
                 <li class="nav-item">
                   <a class="nav-link" href="#contact">
-                    Contact
+                    <i class="fas fa-envelope fa-2x"></i>
                   </a>
                 </li>
               </ul>

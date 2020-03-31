@@ -11,20 +11,17 @@ function Footer() {
         <p class="contact-message">
           Love hot wings as much as I do? Let's talk about how awesome they are! We can code while we eat hot wings!
         </p>
-        <a class="btn" href="mailto:ilove@hotwings.com">
+        <a class="btn" href="biagemc@gmail.com">
           CONTACT ME
         </a>
       </div>
 
       <div class="bottom-container">
         <a class="footer-link" href="https://www.linkedin.com/in/angela-yu-963a584b/">
-          LinkedIn
+          <i class="fab fa-linkedin fa-3x"></i>
         </a>
         <a class="footer-link" href="https://twitter.com/yu_angela">
-          Twitter
-        </a>
-        <a class="footer-link" href="https://www.appbrewery.co/">
-          Website
+          <i class="fab fa-github fa-3x"></i>
         </a>
         <p class="copyright">Copyright ©{date.getFullYear()}</p>
       </div>

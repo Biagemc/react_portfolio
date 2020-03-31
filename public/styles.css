@@ -7,7 +7,7 @@ body {
 
 h1 {
   color: #66bfbf;
-  font-size: 5.625rem;
+  font-size: 3.5rem;
   margin: 50px auto 0 auto;
   font-family: "Sacramento", cursive;
 }
@@ -22,6 +22,7 @@ h2 {
 
 h3 {
   color: #11999e;
+  font-size: 1.5rem;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -45,6 +46,10 @@ a {
 
 a:hover {
   color: #eaf6f6;
+}
+
+#navbar-id {
+  background-color: #e4f9f5;
 }
 
 .top-container {
@@ -81,6 +86,10 @@ a:hover {
   width: 40%;
   margin: 40px auto 60px;
 }
+
+/* .contact-me {
+  background-color: #66bfbf;
+} */
 
 .copyright {
   color: #eaf6f6;
