@@ -5,21 +5,24 @@ function Body() {
     <body>
       <header>
         <div id="navbar-id">
-          <nav class="navbar navbar-expand-lg navbar">
+          <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="#">
               Moreno Biage
             </a>
-            <button class="navbar-toggler" type="button" aria-expanded="false" aria-label="Toggle navigation">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
               <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarsExample05">
+            <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="/">
-                    <i class="fas fa-home fa-2x"></i>
-                  </a>
-                </li>
                 <li class="nav-item">
                   <a class="nav-link" href="https://github.com/Biagemc" target="_blank">
                     <i class="fab fa-github fa-2x"></i>
@@ -42,47 +45,52 @@ function Body() {
           </nav>
         </div>
       </header>
-      <div class="top-container">
-        <img class="top-cloud" src="./images/cloud.png" alt="cloud"></img>
-        <div class="title-text">
-          <h1>Hey there, I'm Moreno</h1>
-          <h2>
-            a <span class="pro">FullStack</span> Developer
-          </h2>
+
+      <div id="top-container">
+        <div class="top-left-container">
+          <div class="title-text">
+            <h2>Hey there,</h2>
+            <h2>I'm Moreno</h2>
+          </div>
         </div>
-        <img class="bottom-cloud" src="images/cloud.png" alt="cloud"></img>
-        <img class="mountain" src="images/mountain.png" alt="mountain-img"></img>
+        <div class="top-right-container">
+          <div class="profile">
+            <h2>
+              a <span class="pro">FullStack</span> Developer
+            </h2>
+            <p class="intro">
+              Developing ideas from paper and working towards a goal to be able to make the difference is my aspiration
+              of as a professional, developing and drinking coffee is a hobby, passion that I enjoy on my day to day.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="middle-container">
-        <div class="profile">
-          <img src="" alt=""></img>
-          <h2>Hi</h2>
-          <p class="intro">
-            I am a FullStack Sofwater Developer. I'm the founder and CTO of The App Brewery. I ❤️ coffee and brew my own
-            beers.
+
+      <div class="skills">
+        <div class="jumbotron jumbotron-fluid" id="mid-container">
+          <div class="container">
+            <h1 class="display-4">My Skills.</h1>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          </div>
+        </div>
+
+        <div class="skill-row">
+          <img class="code-img" src="./images/Ruby_On_Rails.png" alt="code-img"></img>
+
+          <h3>Design & Development</h3>
+          <p>
+            I was 10 years old when I started diving into tech. I loved learning new tools on my computer and everything
+            connected. Over time, gained experience developing projects in construction. But, my passion into tech push
+            me back to do what I always wanted, developing apps.
           </p>
         </div>
-
-        <div class="skills">
-          <h2>My Skills.</h2>
-          <div class="skill-row">
-            <img class="code-img" src="" alt="code-img"></img>
-
-            <h3>Design & Development</h3>
-            <p>
-              I was 10 years old when I started diving into tech. I loved learning new tools on my computer and
-              everything connected. Over time, gained experience developing projects in construction. But, my passion
-              into tech push me back to do what I always loved, developing apps.
-            </p>
-          </div>
-          <div class="skill-row">
-            <img class="chilli-img" src="images/chillies.png" alt="chillies-img"></img>
-            <h3>Hot Wings Challenge</h3>
-            <p>
-              But my best skill is actually in eating hot wings. I am the undisputed queen of hot wing challenges. Ghost
-              Peppers and Carolina Reapers are my favourite snacks.
-            </p>
-          </div>
+        <div class="skill-row">
+          <img class="chilli-img" src="images/chillies.png" alt="chillies-img"></img>
+          <h3>Hot Wings Challenge</h3>
+          <p>
+            But my best skill is actually in eating hot wings. I am the undisputed queen of hot wing challenges. Ghost
+            Peppers and Carolina Reapers are my favourite snacks.
+          </p>
         </div>
       </div>
     </body>
