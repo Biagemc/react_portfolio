@@ -47,13 +47,13 @@ function Body() {
       </header>
 
       <div id="top-container">
-        <div class="top-left-container">
+        <div class="top-left-container flex-child">
           <div class="title-text">
             <h2>Hey there,</h2>
             <h2>I'm Moreno</h2>
           </div>
         </div>
-        <div class="top-right-container">
+        <div class="top-right-container flex-child">
           <div class="profile">
             <h2>
               a <span class="pro">FullStack</span> Developer
@@ -69,28 +69,62 @@ function Body() {
       <div class="skills">
         <div class="jumbotron jumbotron-fluid" id="mid-container">
           <div class="container">
-            <h1 class="display-4">My Skills.</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <h1 class="display-4"></h1>
           </div>
         </div>
 
-        <div class="skill-row">
-          <img class="code-img" src="./images/Ruby_On_Rails.png" alt="code-img"></img>
+        <div class="row">
+          <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+            <div class="card">
+              <img class="card-img-top" src="https://miro.medium.com/max/2544/1*6kiaBHT85iJQvOjRnK6UxA.png" />
 
-          <h3>Design & Development</h3>
-          <p>
-            I was 10 years old when I started diving into tech. I loved learning new tools on my computer and everything
-            connected. Over time, gained experience developing projects in construction. But, my passion into tech push
-            me back to do what I always wanted, developing apps.
-          </p>
-        </div>
-        <div class="skill-row">
-          <img class="chilli-img" src="images/chillies.png" alt="chillies-img"></img>
-          <h3>Hot Wings Challenge</h3>
-          <p>
-            But my best skill is actually in eating hot wings. I am the undisputed queen of hot wing challenges. Ghost
-            Peppers and Carolina Reapers are my favourite snacks.
-          </p>
+              <div class="card-block">
+                <h4 class="card-title">Bjj App</h4>
+
+                <div class="card-text">
+                  A portal where you can browse through positions to practice and bookmark, post questions and get to
+                  know the details of your favourite positions
+                </div>
+              </div>
+              <div class="card-footer">
+                <a href="https://github.com/Biagemc/mini_capstone_vue_app">Git hub Link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+            <div class="card">
+              <img class="card-img-top" src="https://miro.medium.com/max/2544/1*6kiaBHT85iJQvOjRnK6UxA.png" />
+
+              <div class="card-block">
+                <h4 class="card-title">Bjj App</h4>
+
+                <div class="card-text">
+                  A portal where you can browse through positions to practice and bookmark, post questions and get to
+                  know the details of your favourite positions
+                </div>
+              </div>
+              <div class="card-footer">
+                <a href="https://github.com/Biagemc/mini_capstone_vue_app">Git hub Link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+            <div class="card">
+              <img class="card-img-top" src="https://miro.medium.com/max/2544/1*6kiaBHT85iJQvOjRnK6UxA.png" />
+
+              <div class="card-block">
+                <h4 class="card-title">Bjj App</h4>
+
+                <div class="card-text">
+                  A portal where you can browse through positions to practice and bookmark, post questions and get to
+                  know the details of your favourite positions
+                </div>
+              </div>
+              <div class="card-footer">
+                <a href="https://github.com/Biagemc/mini_capstone_vue_app">Git hub Link</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </body>

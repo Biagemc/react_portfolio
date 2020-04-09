@@ -60,19 +60,17 @@ a:hover {
   background-color: #ffffff;
 }
 .top-left-container {
-  flex: 2 0 35%;
-  padding: 70px;
-  margin: 0 auto;
+  flex: 1;
+  padding: 20px;
+  margin-right: 20px;
   max-width: 50%;
   border: 6px solid black;
   text-align: center;
 }
 
 .top-right-container {
-  flex-basis: 35%;
-  padding: 70px;
-  margin: 0 auto;
-  max-width: 1200px;
+  flex: 1;
+  padding: 20px;
 }
 
 .bottom-container {
@@ -97,6 +95,7 @@ a:hover {
 
 .skills {
   background-color: #ffffff;
+  padding: 100px 30px;
 }
 
 .contact-message {
