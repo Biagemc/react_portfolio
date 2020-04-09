@@ -6,7 +6,7 @@ function Body() {
       <header>
         <div id="navbar-id">
           <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#">
+            <a id="brand" class="navbar-brand" href="#">
               Moreno Biage
             </a>
             <button
@@ -25,19 +25,19 @@ function Body() {
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                   <a class="nav-link" href="https://github.com/Biagemc" target="_blank">
-                    <i class="fab fa-github fa-2x"></i>
+                    <i id="icon-light" class="fab fa-github fa-2x"></i>
                   </a>
                 </li>
 
                 <li class="nav-item">
                   <a class="nav-link" href="https://www.linkedin.com/in/morenobiage/" target="_blank">
-                    <i class="fab fa-linkedin fa-2x"></i>
+                    <i id="icon-light" class="fab fa-linkedin fa-2x"></i>
                   </a>
                 </li>
 
                 <li class="nav-item">
                   <a class="nav-link" href="#contact">
-                    <i class="fas fa-envelope fa-2x"></i>
+                    <i id="icon-light" class="fas fa-envelope fa-2x"></i>
                   </a>
                 </li>
               </ul>

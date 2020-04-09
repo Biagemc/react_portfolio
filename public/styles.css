@@ -68,13 +68,25 @@ a:hover {
   text-align: center;
 }
 
+#brand {
+  color: black;
+  font-size: 2rem;
+}
+
+#icon {
+  color: #ffffff;
+}
+
+#icon-light {
+  color: black;
+}
 .top-right-container {
   flex: 1;
   padding: 20px;
 }
 
 .bottom-container {
-  background-color: #222831;
+  background-color: black;
   padding: 50px 0 20px;
 }
 
@@ -103,9 +115,10 @@ a:hover {
   margin: 40px auto 60px;
 }
 
-/* .contact-me {
-  background-color: #66bfbf;
-} */
+.contact-me {
+  background-color: black;
+  color: #ffffff;
+}
 
 .copyright {
   color: #eaf6f6;
@@ -117,37 +130,4 @@ a:hover {
   width: 25%;
   float: left;
   margin-right: 30px;
-}
-
-.chilli-img {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
-}
-
-.btn {
-  background: #222831;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: "Montserrat", sans-serif;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #222831;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-  text-decoration: none;
 }
